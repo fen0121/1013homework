@@ -1,38 +1,39 @@
-let x = 0
+let x4 = 0
+let x0 = 0
 basic.forever(function () {
-    x = 4
+    x4 = 4
     for (let index = 0; index < 5; index++) {
-        led.plot(x, 4)
+        led.plot(x4, 4)
         basic.pause(500)
-        x = x - 1
+        x4 = x4 - 1
     }
     basic.clearScreen()
-    x = 0
+    x0 = 0
     for (let index = 0; index < 5; index++) {
-        led.plot(x, 3)
+        led.plot(x0, 3)
         basic.pause(500)
-        x = x + 1
+        x0 = x0 + 1
     }
     basic.clearScreen()
-    x = 4
+    x4 = 4
     for (let index = 0; index < 5; index++) {
-        led.plot(x, 2)
+        led.plot(x4, 2)
         basic.pause(500)
-        x = x - 1
+        x4 = x4 - 1
     }
     basic.clearScreen()
-    x = 0
+    x0 = 0
     for (let index = 0; index < 5; index++) {
-        led.plot(x, 1)
+        led.plot(x0, 1)
         basic.pause(500)
-        x = x + 1
+        x0 = x0 + 1
     }
     basic.clearScreen()
-    x = 4
+    x4 = 4
     for (let index = 0; index < 5; index++) {
-        led.plot(x, 0)
+        led.plot(x4, 0)
         basic.pause(500)
-        x = x - 1
+        x4 = x4 - 1
     }
     basic.clearScreen()
 })
