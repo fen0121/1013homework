@@ -9,10 +9,9 @@ basic.forever(function () {
     }
     basic.clearScreen()
     x0 = 0
-    for (let index = 0; index < 5; index++) {
+    for (let x0 = 0; x0 <= 4; x0++) {
         led.plot(x0, 3)
         basic.pause(500)
-        x0 = x0 + 1
     }
     basic.clearScreen()
     x4 = 4
@@ -23,10 +22,9 @@ basic.forever(function () {
     }
     basic.clearScreen()
     x0 = 0
-    for (let index = 0; index < 5; index++) {
+    for (let x0 = 0; x0 <= 4; x0++) {
         led.plot(x0, 1)
         basic.pause(500)
-        x0 = x0 + 1
     }
     basic.clearScreen()
     x4 = 4
